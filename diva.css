@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+}
+.navbar{
+    width:100%;
+    height:50px;
+    background-color: rgb(36, 105, 100);
+    color:white;
+    position: sticky;
+    top:0px;
+    border-radius: 5px;
+}
+li{
+    float:left;
+    padding-left: 5px;
+    padding-top: 15px;
+}
+li:first-child{
+    padding-right: 450px;
+    padding-left: 100px;
+}
+.book{
+    width: 500px;
+    margin-left:50px;
+    border-collapse: collapse;
+}
+.nestab{
+    border:1px;
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+.hbook{
+    width: 700px;
+    height: 1100px;
+    background-color: rgb(112, 225, 214);
+    margin: 20px;
+    margin-left: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+}
+.h1{
+    margin-top:20px;
+    margin-left: 40px;
+    padding:10px;
+}
+body{
+    background-color:rgb(255, 255, 255);
+    width:100vw;
+}
+th,td{
+    padding: 10px;
+    align-items: center;
+}
+a{
+    margin:30px;
+    color:black;
+}
+.Register{
+    width: 700px;
+    height: 1000px;
+    background-color: rgb(112, 225, 214);
+    margin: 20px;
+    margin-left: 250px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+.mystyle{
+	width:500px;
+	height:80px;
+	background-color:white;
+    margin: 20px;
+    margin-left:100px;
+	padding-top:20px;
+    padding-left: 20px;
+	box-shadow:4px 4px 5px gray ;
+	border-radius:5%;
+}
+
+.my{
+	width:500px;
+	height:50px;
+	border:none;
+	box-shadow:2px 2px 3px gray ;
+	background-color:rgb(36, 105, 100);
+    color: white;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.lib:hover,a:hover,li:hover{
+    color:blue;
+}
+table,tr,td,th{
+    border:solid rgb(47, 77, 62);
+    background-color: white;
+}
+td,th{
+    font-family:'Times New Roman', Times, serif;
+}
+#name,#lname,#email,#password,#dob,#cpassword,#age{
+    width:400px;
+}

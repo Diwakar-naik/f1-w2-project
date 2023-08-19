@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Library System</title>
+    <link rel="stylesheet" href="./diva.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li class="lib">Library System</li>
+            <li class="lib"><a style="color:white; text-decoration: none;" href="#book_section">Books</a></li>
+            <li class="lib"><a style="color:white; text-decoration: none;" href="#Register_section">Register</a></li>
+            <li class="lib"><a style="color:white; text-decoration: none;" href="#">Contact us</a></li>
+            <li class="lib"><a style="color:white; text-decoration: none;" href="#">Logout</a></li>
+        </ul>
+    </div>
+    <!--table-->
+    <div id="book_section" class="hbook">
+        <h1 class="h1">Books</h1>
+        <div>
+            <table class="book" border="1">
+                <thead>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </thead>
+
+                <tbody>
+                    <!--book1-->
+                    <tr>
+                        <td>1</td>
+                        <td><a
+                                href="https://www.google.co.in/books/edition/The_Clothing_of_Books/-6fbDQAAQBAJ?hl=en&gbpv=1&dq=books&printsec=frontcover">Book
+                                Title 1</a>
+                            <table class="nestab" border="1">
+                                <tr>
+                                    <td>Publication Date: 2017</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count: 80</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN: 9781408890158, 1408890151</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Jhumpa Lahiri</td>
+                        <td>Biography, Autobiography</td>
+                        <td>Available</td>
+                    </tr>
+                    <!--book 2-->
+                    <tr>
+                        <td>2</td>
+                        <td><a
+                                href="https://www.google.co.in/books/edition/The_Penguin_Book_of_Italian_Short_Storie/VXZtDwAAQBAJ?hl=en&sa=X&ved=2ahUKEwjehpnBteiAAxWacWwGHd-dAWoQiqUDegQIAxAC">Book
+                                Title 2</a>
+                            <table class="nestab" border="1">
+                                <tr>
+                                    <td>Publication Date:2017</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count:528</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN: 9780141985626, 0141985623</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Jhumpa Lahiri</td>
+                        <td>Literary fiction</td>
+                        <td>Available</td>
+                    </tr>
+                    <!--book3-->
+
+                    <tr>
+                        <td>3</td>
+                        <td><a href="https://www.google.co.in/books/edition/Atomic_Habits/rruOEAAAQBAJ?hl=en">Book Title
+                                3</a>
+                            <table class="nestab" border="1">
+                                <tr>
+                                    <td>Publication Date: 2018</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count:320</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN: 9780735211292, 0735211299</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>James Clear</td>
+                        <td>Self-help book</td>
+                        <td>Available</td>
+                    </tr>
+                    <!--book4-->
+
+                    <tr>
+                        <td>4</td>
+                        <td><a
+                                href="https://www.google.co.in/books/edition/The_Great_Mental_Models_Volume_1_General/ffUpywEACAAJ?hl=en">Book
+                                Title 4</a>
+                            <table class="nestab" border="1">
+                                <tr>
+                                    <td>Publication Date: 2019</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count:190</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN: 9781999449001, 1999449002</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Rhiannon Beaubien, Shane Parrish</td>
+                        <td> Reference work</td>
+                        <td>Available</td>
+                    </tr>
+                    <!--book5-->
+
+                    <tr>
+                        <td>5</td>
+                        <td><a href="https://www.google.co.in/books/edition/Outlander/7iF6BgAAQBAJ?hl=en&gbpv=0">Book
+                                Title 1</a>
+                            <table class="nestab" border="1">
+                                <tr>
+                                    <td>Publication Date:2015</td>
+                                </tr>
+                                <tr>
+                                    <td>Page Count:864</td>
+                                </tr>
+                                <tr>
+                                    <td>ISBN:9781473535411, 1473535417</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>Diana Gabaldon</td>
+                        <td>Novel</td>
+                        <td>Available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!--register-->
+
+    <div id="Register_section" class="Register">
+        <h1 class="h1">Register</h1>
+        <div>
+        <form action="#" method="post">
+            <section class="mystyle">
+                <label for="name">First Name*</label><br>
+                <input type="text" id="name" required><br>
+            </section>
+
+            <section class="mystyle">
+                <label for="lname">Last Name*</label><br>
+                <input type="text" id="lname" required><br>
+            </section>
+
+            <section class="mystyle">
+                <label for="dob">Date of Birth*</label><br>
+                <input type="date" id="dob" required><br>
+            </section>
+
+            <section class="mystyle">
+                <label for="age">Age*</label><br>
+                <input type="number" id="age" required><br>
+            </section>
+
+            <section class="mystyle">
+                <label for="email">Email*</label><br>
+                <input type="email" id="email" required><br>
+            </section>
+
+            <section class="mystyle">
+                <label for="password">Password*</label><br>
+                <input type="password" id="password" required><br>
+            </section>
+
+            <section class="mystyle">
+                <label for="cpassword">Confirm Password*</label><br>
+                <input type="password" id="cpassword" required><br>
+            </section>
+
+            <button class="my" type="submit">Register</button>
+
+        </form>
+        </div>
+    </div>
+</body>
+
+</html>
